@@ -26,6 +26,6 @@ public class ${activityClass} extends AppCompatActivity implements ${activityCla
 	
 	private void initView() {
 		// GET INSTANCE OF PRESENTER
-        new ${activityClass}Presenter(this,this);
+        new ${activityClass}Pres(this,this);
     }
 }

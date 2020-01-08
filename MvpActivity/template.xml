@@ -103,27 +103,27 @@
             id="presenterClass"
             name="Presenter Name"
             type="string"
-            suggest="${activityClass}Presenter"
+            suggest="${activityClass}Pres"
             constraints="class|nonempty"
             visibility="needPresenter"
-            help="Presenter will output: mvp.presenter"/>
+            help="Presenter will output: mvp.pres"/>
 
     <!-- 是否创建Model -->
     <parameter id="needImple"
-               name="Create Imple"
+               name="Create Implement"
                type="boolean"
                default="true"
-               help="if true will create Imple"/>
+               help="if true will create Implement"/>
 
     <!-- 创建Model -->
     <parameter
             id="modelClass"
-            name="Imple Name"
+            name="Implement Name"
             type="string"
             visibility="needImple"
             constraints="class|nonempty"
             suggest="${activityClass}Imple"
-            help="Imple will output: mvp.imple"/>
+            help="Implement will output: mvp.imple"/>
 
 
     <!-- 128x128 thumbnails relative to template.xml -->
